@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {CgClose, CgInfo} from "react-icons/cg";
 import {useHistory} from "react-router-dom";
 
@@ -27,10 +27,9 @@ const Task = ({task, handleTaskClick, handleTaskDeletion}) => {
                 <button className="see-task-details-button" onClick={handleTaskDetailsClick}>
                     <CgInfo />
                 </button>
-
             </div>
         </div>
-    )
+    );
 };
  
 export default Task;

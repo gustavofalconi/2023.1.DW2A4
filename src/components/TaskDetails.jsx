@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { useHistory, useParams } from "react-router-dom"
 
 import Button from './Button';
@@ -10,7 +10,7 @@ const TaskDetails = () => {
 
     const handleBackButtonClick = () => {
         history.push('/');
-    }
+    };
 
     return (
         <>
@@ -25,6 +25,6 @@ const TaskDetails = () => {
             </div>
         </>
       );
-}
+};
  
 export default TaskDetails;
